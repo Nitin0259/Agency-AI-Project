@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: "Manrope", sans-serif;
+}
+
+.scroll-dot {
+  animation: scrollMove 1.5s ease-in-out infinite;
+}
+
+@keyframes scrollMove {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(12px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
